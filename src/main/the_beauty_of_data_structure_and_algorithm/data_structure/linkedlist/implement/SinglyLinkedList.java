@@ -1,4 +1,4 @@
-package test.the_beauty_of_data_structure_and_algorithm.data_structure.linkedlist.implement;
+package main.the_beauty_of_data_structure_and_algorithm.data_structure.linkedlist.implement;
 
 /**
  * @author wenzhuang
