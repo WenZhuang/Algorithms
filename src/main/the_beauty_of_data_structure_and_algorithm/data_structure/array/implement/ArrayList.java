@@ -1,4 +1,4 @@
-package the_beauty_of_data_structure_and_algorithm.data_structure.array.implement;
+package main.the_beauty_of_data_structure_and_algorithm.data_structure.array.implement;
 
 /**
  * 数组：支持新增、修改、删除、插入
@@ -26,11 +26,18 @@ public class ArrayList {
         array[count++] = num;
     }
 
-    public void set(int index, int num) throws ArrayIndexOutOfBoundsException{
+    public void set(int index, int num){
         if (index >= count) {
             throw new ArrayIndexOutOfBoundsException();
         }
         array[index] = num;
+    }
+
+    public int get(int i){
+        if (i >= count){
+            throw new ArrayIndexOutOfBoundsException();
+        }
+        return array[i];
     }
 
     public void remove(int index){
@@ -58,6 +65,16 @@ public class ArrayList {
         for (int i = 0; i < size; i++){
             nArray[i] = array[i];
         }
+        size *= 2;
         array = nArray;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0; i < count; i++){
+            stringBuilder.append(array[i]).append(",");
+        }
+        return stringBuilder.substring(0, stringBuilder.length() - 1);
     }
 }
