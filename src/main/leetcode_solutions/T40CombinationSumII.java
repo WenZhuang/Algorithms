@@ -1,14 +1,13 @@
-package main.leetcodeSolutions;
+package main.leetcode_solutions;
 
 import java.util.*;
 
 /**
- * DFS、Backtracking
  * @author wenzhuang
- * @date 2019-10-03 03:02
+ * @date 2019-10-03 03:12
  */
-public class T39_CombinationSum {
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+public class T40CombinationSumII {
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> list  = new ArrayList<List<Integer>>();
         List<Integer> item = new ArrayList<>();
         if(candidates == null || candidates.length == 0 || target < 0){
@@ -28,9 +27,12 @@ public class T39_CombinationSum {
             return;
         }
         for(int i = start; i < candidates.length; i++){
+            if(i > start && candidates[i] == candidates[i-1]){
+                continue;
+            }
             sum += candidates[i];
             item.add(candidates[i]);
-            backtracking(list, item, candidates, target, i, sum);
+            backtracking(list, item, candidates, target, i+1, sum);
             sum -= candidates[i];
             item.remove(item.size()-1);
         }
