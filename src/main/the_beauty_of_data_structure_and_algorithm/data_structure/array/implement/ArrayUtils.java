@@ -13,7 +13,7 @@ public class ArrayUtils {
      * @param b
      * @return
      */
-    public static int[] mergeSortedTwoArrays(int[] a, int[] b){
+    public static int[] mergeTwoSortedArrays(int[] a, int[] b){
         int m = a.length;
         int n = b.length;
         int[] nArray = new int[m + n];

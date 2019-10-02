@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f03a1e-5ef1-4b3a-be5c-3e0da31dd0a9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/linkedlist/implement/LinkedListUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/linkedlist/implement/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/linkedlist/implement/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayUtilsTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +33,8 @@
       <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+            <state relative-caret-position="317">
+              <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
               <folding>
                 <element signature="e#280#281#0" expanded="true" />
                 <element signature="e#316#317#0" expanded="true" />
@@ -42,24 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="3809" column="27" selection-start-line="3809" selection-start-column="27" selection-end-line="3809" selection-end-column="27" />
-              <folding>
-                <element signature="e#177457#177458#0" expanded="true" />
-                <element signature="e#177496#177497#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ArrayUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="152">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -67,8 +55,8 @@
       <file leaf-file-name="ArrayListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="355">
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
               <folding>
                 <element signature="e#313#314#0" expanded="true" />
                 <element signature="e#344#345#0" expanded="true" />
@@ -77,15 +65,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayUtilsTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayUtilsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            <state relative-caret-position="437">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#315#316#0" expanded="true" />
                 <element signature="e#346#347#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SinglyLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/linkedlist/implement/SinglyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListUtils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/linkedlist/implement/LinkedListUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="85" column="24" lean-forward="true" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/linkedlist/implement/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,10 +135,14 @@
         <option value="$PROJECT_DIR$/the_beauty_of_data_structure_and_algorithm/data_structure/array/impl/ArrayList.java" />
         <option value="$PROJECT_DIR$/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayList.java" />
         <option value="$PROJECT_DIR$/src/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayList.java" />
-        <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayUtils.java" />
         <option value="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayListTest.java" />
         <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayList.java" />
+        <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayUtils.java" />
         <option value="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/linkedlist/implement/Node.java" />
+        <option value="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/linkedlist/implement/SinglyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/linkedlist/implement/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/linkedlist/implement/LinkedListUtils.java" />
       </list>
     </option>
   </component>
@@ -145,6 +167,8 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
       <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
@@ -168,19 +192,20 @@
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="the_beauty_of_data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="the_beauty_of_data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="the_beauty_of_data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -188,47 +213,19 @@
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="the_beauty_of_data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="the_beauty_of_data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-              <item name="implement" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="the_beauty_of_data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="the_beauty_of_data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="the_beauty_of_data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="the_beauty_of_data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="data_structure" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
               <item name="implement" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -245,21 +242,6 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -399,12 +381,12 @@
       <updated>1570002677457</updated>
       <workItem from="1570002678927" duration="1000" />
       <workItem from="1570002685385" duration="2354000" />
-      <workItem from="1570005223272" duration="4922000" />
+      <workItem from="1570005223272" duration="7952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7277000" />
+    <option name="totallyTimeSpent" value="10307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="829" extended-state="6" />
@@ -429,10 +411,10 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28474113" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.012261581" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.19618529" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -512,8 +494,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="355">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
           <folding>
             <element signature="e#313#314#0" expanded="true" />
             <element signature="e#344#345#0" expanded="true" />
@@ -523,8 +505,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        <state relative-caret-position="317">
+          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
           <folding>
             <element signature="e#280#281#0" expanded="true" />
             <element signature="e#316#317#0" expanded="true" />
@@ -534,20 +516,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/array/implement/ArrayUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="437">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#315#316#0" expanded="true" />
             <element signature="e#346#347#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/linkedlist/implement/SinglyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/linkedlist/implement/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/data_structure/linkedlist/implement/LinkedListUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="85" column="24" lean-forward="true" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
         </state>
       </provider>
     </entry>

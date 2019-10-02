@@ -1,6 +1,5 @@
 package test.the_beauty_of_data_structure_and_algorithm.data_structure.array.implement;
 
-import main.the_beauty_of_data_structure_and_algorithm.data_structure.array.implement.ArrayList;
 import main.the_beauty_of_data_structure_and_algorithm.data_structure.array.implement.ArrayUtils;
 
 /**
@@ -26,7 +25,7 @@ public class ArrayUtilsTest {
             System.out.print(arr2[i] + ",");
         }
         System.out.println();
-        int[] arr = ArrayUtils.mergeSortedTwoArrays(arr1, arr2);
+        int[] arr = ArrayUtils.mergeTwoSortedArrays(arr1, arr2);
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + ",");
         }
