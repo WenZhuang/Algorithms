@@ -8,7 +8,6 @@ import main.classical_algorithms.sort.Sort;
  */
 public class SortTest {
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
         Integer[] a = new Integer[10];
         final int N = a.length;
         for(int i = 0; i < N; i++){
