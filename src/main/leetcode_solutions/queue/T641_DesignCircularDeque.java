@@ -2,7 +2,9 @@ package main.leetcode_solutions.queue;
 
 /**
  * 实现循环双端队列：
- * 两种实现方式：1）数组 2)双向循环链表
+ * 两种实现方式：
+ * 1)数组 T641_DesignCircularDeque
+ * 2)双向循环链表 T641_DesignCircularDeque2
  * @author wenzhuang
  * @date 2019-10-04 17:50
  */
@@ -89,11 +91,4 @@ public class T641_DesignCircularDeque {
     public boolean isFull() {
         return head == tail && count > 0;
     }
-}
-/**
- * 双向循环链表实现
- */
-//TODO
-class T641_DesignCircularDeque2{
-
 }
