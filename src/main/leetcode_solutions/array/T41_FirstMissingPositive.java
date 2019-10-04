@@ -1,4 +1,4 @@
-package main.leetcode_solutions;
+package main.leetcode_solutions.array;
 
 /**
  * @author wenzhuang

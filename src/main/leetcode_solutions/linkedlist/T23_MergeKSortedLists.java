@@ -1,4 +1,6 @@
-package main.leetcode_solutions;
+package main.leetcode_solutions.linkedlist;
+
+import main.common.ListNode;
 
 import java.util.*;
 
