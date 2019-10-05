@@ -7,6 +7,7 @@ package main.leetcode_solutions.queue;
 /**
  * 双向循环链表实现
  */
+//TODO 待验证
 public class T641_DesignCircularDeque2 {
     private DoubleListNode head;
     private DoubleListNode tail;

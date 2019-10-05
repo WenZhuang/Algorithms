@@ -31,4 +31,9 @@ public class T169_MajorityElement {
         }
         return major;
     }
+    //TODO 位运算实现
+
+    //TODO 切分法实现
+
+    //TODO 摩尔投票算法的扩展
 }
