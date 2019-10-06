@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f03a1e-5ef1-4b3a-be5c-3e0da31dd0a9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/hash_table/HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/hash_table/LRUCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/sort/implement/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/sort/implement/HeapSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HeapSort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HeapSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/sort/implement/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="80">
+              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -27,14 +26,23 @@
       <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/hash_table/HashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="170" column="20" selection-start-line="170" selection-start-column="20" selection-end-line="170" selection-end-column="20" />
+            <state relative-caret-position="219">
+              <caret line="162" column="21" lean-forward="true" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
               <folding>
                 <element signature="e#547#548#0" expanded="true" />
                 <element signature="e#600#601#0" expanded="true" />
                 <element signature="e#3014#3015#0" expanded="true" />
                 <element signature="e#3053#3054#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LRUCache.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/hash_table/LRUCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -71,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/lintcode_solutions/T433_NumberOfIslands.java" />
         <option value="$PROJECT_DIR$/src/main/lintcode_solutions/T452_RemoveLinkedListElements.java" />
         <option value="$PROJECT_DIR$/src/main/lintcode_solutions/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/lintcode_solutions/T454_RectangleArea.java" />
@@ -122,6 +129,7 @@
         <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/sort/exercise/SortUtils.java" />
         <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/sort/implement/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/hash_table/HashMap.java" />
+        <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/hash_table/LRUCache.java" />
       </list>
     </option>
   </component>
@@ -420,12 +428,12 @@
       <workItem from="1570002685385" duration="2354000" />
       <workItem from="1570005223272" duration="14853000" />
       <workItem from="1570091957841" duration="17830000" />
-      <workItem from="1570280464192" duration="9762000" />
+      <workItem from="1570280464192" duration="10430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44800000" />
+    <option name="totallyTimeSpent" value="45468000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,8 +468,8 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2574932" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32970026" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.020463847" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860725" visible="true" weight="0.18097281" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2510232" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49860725" visible="true" weight="0.20886981" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -512,17 +520,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/lintcode_solutions/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/lintcode_solutions/T66_BinaryTreePreorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -868,10 +865,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/sort/implement/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/hash_table/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="170" column="20" selection-start-line="170" selection-start-column="20" selection-end-line="170" selection-end-column="20" />
+        <state relative-caret-position="219">
+          <caret line="162" column="21" lean-forward="true" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
           <folding>
             <element signature="e#547#548#0" expanded="true" />
             <element signature="e#600#601#0" expanded="true" />
@@ -881,10 +885,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/sort/implement/HeapSort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/hash_table/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="152">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
