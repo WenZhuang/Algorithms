@@ -98,7 +98,7 @@ public class HashMap {
                 entry = entry.next;
             }
         }
-
+        return false;
     }
 
     /**
