@@ -22,16 +22,52 @@ public class HeapSort {
         }
     }
 
-    //TODO
+    /**
+     * 下沉的实现方式1
+     * @param a
+     * @param i
+     * @param n
+     */
     private static void sink(int[] a, int i, int n){
         while (2 * i + 1 <= n){
-            int index = i;
-            if (a[2 * i + 1] > a[i]) {
-                index = 2 * i + 1;
+            //选出左右孩子更大的那个
+            int j = 2 * i + 1;
+            if (2 * i + 2 <= n && a[2 * i + 2] > a[j]) {
+                j++;
             }
-            if (2 * i + 2 <= n && a[2 * i + 2] > a[i]){
-                index = a[2 * i + 2];
+            //左右孩子都没有自身大，结束下沉
+            if (a[i] >= a[j]){
+              break;
             }
+            //交换节点
+            exch(a, i, j);
+            i = j;
+        }
+    }
+
+    /**
+     * 下沉方式2
+     * @param a
+     * @param i
+     * @param n
+     */
+    private static void sink2(int[] a, int i, int n){
+        while (true){
+            //选出自身和左右孩子最大的的节点
+            int maxPos = i;
+            if (2 * i + 1 <= n && a[2 * i + 1] > a[maxPos]) {
+                maxPos = 2 * i + 1;
+            }
+            if (2 * i + 2 <= n && a[2 * i + 2] > a[maxPos]) {
+                maxPos = 2 * i + 2;
+            }
+            //最大节点就是自身，结束下沉
+            if (maxPos == i){
+                break;
+            }
+            //交换节点
+            exch(a, i, maxPos);
+            i = maxPos;
         }
     }
 
