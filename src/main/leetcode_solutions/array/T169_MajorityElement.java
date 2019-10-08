@@ -31,9 +31,9 @@ public class T169_MajorityElement {
         }
         return major;
     }
-    //TODO 位运算实现
+    //TODO 位运算实现 https://leetcode.com/problems/majority-element/discuss/51611/Java-solutions-(sorting-hashmap-moore-voting-bit-manipulation).
 
     //TODO 切分法实现
 
-    //TODO 摩尔投票算法的扩展
+    //TODO 摩尔投票算法的扩展 https://leetcode.com/problems/majority-element-ii/
 }
