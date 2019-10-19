@@ -4,9 +4,9 @@ package main.the_beauty_of_data_structure_and_algorithm.algorithm.backtracking.e
  * @author wenzhuang
  * @date 2019-10-19 17:25
  */
-public class NQueue {
+public class NQueues {
 
-    public void nQueue(int n){
+    public void nQueues(int n){
         int[] pos = new int[n];
         backtracking(pos, 0, n);
     }

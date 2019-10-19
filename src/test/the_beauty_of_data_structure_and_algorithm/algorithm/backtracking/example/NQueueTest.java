@@ -1,6 +1,6 @@
 package test.the_beauty_of_data_structure_and_algorithm.algorithm.backtracking.example;
 
-import main.the_beauty_of_data_structure_and_algorithm.algorithm.backtracking.example.NQueue;
+import main.the_beauty_of_data_structure_and_algorithm.algorithm.backtracking.example.NQueues;
 
 /**
  * @author wenzhuang
@@ -8,6 +8,6 @@ import main.the_beauty_of_data_structure_and_algorithm.algorithm.backtracking.ex
  */
 public class NQueueTest {
     public static void main(String[] args){
-        new NQueue().nQueue(8);
+        new NQueues().nQueues(8);
     }
 }
