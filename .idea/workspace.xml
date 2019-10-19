@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f03a1e-5ef1-4b3a-be5c-3e0da31dd0a9" name="Default" comment="add implement: binarySearch">
-      <change afterPath="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/divide_conquer/example/InversionPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/greedy/example/AssignCookie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/greedy/example/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/greedy/example/HuffmanCoding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/greedy/example/IntervalCoverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/divide_conquer/example/InversionPairTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/backtracking/example/NQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/backtracking/example/NQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,24 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="T98_ValidateBinarySearchTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/tree/T98_ValidateBinarySearchTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/heap/implement/PriorityQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1805">
-              <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HeapUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/heap/exercise/HeapUtils.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,11 +84,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InversionPairTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InversionPairTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/divide_conquer/example/InversionPairTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+            <state relative-caret-position="266">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/backtracking/example/NQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NQueueTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/backtracking/example/NQueueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,8 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/leetcode_solutions/array/T15_3Sum.java" />
-        <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/queue/implement/ArrayQueue.java" />
         <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/queue/implement/LinkedQueue.java" />
         <option value="$PROJECT_DIR$/src/main/leetcode_solutions/queue/T239_SlidingWindowMaximum.java" />
         <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/queue/implement/CyclicQueue.java" />
@@ -197,6 +195,8 @@
         <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/greedy/example/HuffmanCoding.java" />
         <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/divide_conquer/example/InversionPair.java" />
         <option value="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/divide_conquer/example/InversionPairTest.java" />
+        <option value="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/backtracking/example/NQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/backtracking/example/NQueue.java" />
       </list>
     </option>
   </component>
@@ -269,6 +269,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="the_beauty_of_data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="the_beauty_of_data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="the_beauty_of_data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="divide_conquer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -307,7 +326,17 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="the_beauty_of_data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="divide_conquer" type="462c0819:PsiDirectoryNode" />
+              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="the_beauty_of_data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -317,7 +346,6 @@
               <item name="the_beauty_of_data_structure_and_algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="divide_conquer" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -374,7 +402,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InversionPairTest">
+  <component name="RunManager" selected="Application.NQueueTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -400,17 +428,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="HeapUtilsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.the_beauty_of_data_structure_and_algorithm.data_structure.heap.HeapUtilsTest" />
-      <module name="Algorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.the_beauty_of_data_structure_and_algorithm.data_structure.heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="InversionPairTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.the_beauty_of_data_structure_and_algorithm.algorithm.divide_conquer.example.InversionPairTest" />
       <module name="Algorithms" />
@@ -418,6 +435,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.the_beauty_of_data_structure_and_algorithm.algorithm.divide_conquer.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="NQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.the_beauty_of_data_structure_and_algorithm.algorithm.backtracking.example.NQueueTest" />
+      <module name="Algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.the_beauty_of_data_structure_and_algorithm.algorithm.backtracking.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -475,19 +503,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.HeapUtilsTest" />
       <item itemvalue="Application.CommonTest" />
       <item itemvalue="Application.BinarySearchTest" />
       <item itemvalue="Application.StringMatchingTest" />
       <item itemvalue="Application.InversionPairTest" />
+      <item itemvalue="Application.NQueueTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NQueueTest" />
         <item itemvalue="Application.InversionPairTest" />
         <item itemvalue="Application.StringMatchingTest" />
         <item itemvalue="Application.CommonTest" />
         <item itemvalue="Application.BinarySearchTest" />
-        <item itemvalue="Application.HeapUtilsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -522,7 +550,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70097000" />
+    <option name="totallyTimeSpent" value="72835000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,24 +568,25 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.20027249" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3533424" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19515151" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32970026" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28848484" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3927273" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.092402466" visible="true" weight="0.30972818" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.092402466" weight="0.15450644" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.90759754" side_tool="true" weight="0.21173105" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39918256" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987879" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25575757" />
@@ -587,11 +616,44 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39918256" />
-      <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info id="Designer" order="2" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25575757" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28727272" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.092402466" visible="true" weight="0.19957082" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32970026" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297568" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="JRebel Executor" order="12" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.20027249" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" sideWeight="0.90759754" side_tool="true" weight="0.21173105" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39918256" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -619,7 +681,7 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="19" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -632,20 +694,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/sort/implement/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/queue/T641_DesignCircularDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/stack/T150_EvaluateReversePolishNotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -991,8 +1039,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/divide_conquer/example/InversionPairTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/backtracking/example/NQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/backtracking/example/NQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
