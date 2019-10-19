@@ -8,9 +8,6 @@ public class NQueue {
 
     public void nQueue(int n){
         int[] pos = new int[n];
-        for (int i = 0; i < n; i++){
-            pos[i] = -1;
-        }
         backtracking(pos, 0, n);
     }
 
