@@ -9,6 +9,8 @@ public class T5_LongestPalindromicSubstring {
     /**
      * 动态规划解法，dp[i][j]从i到j的子串是否回文子串
      * dp[i][j] = dp[i + 1][j - 1] && s[i]==s[j]
+     * T(n)=O(n^2)
+     * S(n)=O(n^2)
      * @param s
      * @return
      */
@@ -29,4 +31,8 @@ public class T5_LongestPalindromicSubstring {
         }
         return res;
     }
+
+    //TODO 中心扩展法
+
+    //TODO manacher算法，不要求掌握
 }

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f03a1e-5ef1-4b3a-be5c-3e0da31dd0a9" name="Default" comment="add implement: binarySearch">
-      <change afterPath="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T322_CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T44_WildcardMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T5_LongestPalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T64_MinimumPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/leetcode_solutions/T120_Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T120_Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T516_LongestPalindromicSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T44_WildcardMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T44_WildcardMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T5_LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T5_LongestPalindromicSubstring.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="T5_LongestPalindromicSubstring.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="T5_LongestPalindromicSubstring.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T5_LongestPalindromicSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="137">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -66,8 +63,17 @@
       <file leaf-file-name="T44_WildcardMatching.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T44_WildcardMatching.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="453">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T516_LongestPalindromicSubsequence.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T516_LongestPalindromicSubsequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -95,15 +101,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
               <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KnapsackProblem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/KnapsackProblem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-151">
-              <caret line="114" column="13" lean-forward="true" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -139,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/leetcode_solutions/stack/T224_BasicCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/leetcode_solutions/stack/T282_ExpressionAddOperators.java" />
         <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/sort/implement/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/sort/implement/QuickSort.java" />
@@ -187,9 +183,10 @@
         <option value="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/EditDistanceTest.java" />
         <option value="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T64_MinimumPathSum.java" />
         <option value="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T322_CoinChange.java" />
-        <option value="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T44_WildcardMatching.java" />
         <option value="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T120_Triangle.java" />
         <option value="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T5_LongestPalindromicSubstring.java" />
+        <option value="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T44_WildcardMatching.java" />
+        <option value="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T516_LongestPalindromicSubsequence.java" />
       </list>
     </option>
   </component>
@@ -596,7 +593,7 @@
       <workItem from="1570425563021" duration="4062000" />
       <workItem from="1570457387464" duration="3483000" />
       <workItem from="1570473774816" duration="5787000" />
-      <workItem from="1571504116904" duration="9079000" />
+      <workItem from="1571504116904" duration="9698000" />
     </task>
     <task id="LOCAL-00001" summary="add implement: binarySearch">
       <created>1570543276675</created>
@@ -609,7 +606,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91425000" />
+    <option name="totallyTimeSpent" value="92044000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -731,13 +728,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12559">
-          <caret line="703" column="28" selection-start-line="703" selection-start-column="28" selection-end-line="703" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/sort/implement/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1034,13 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T44_WildcardMatching.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T120_Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -1071,8 +1054,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T5_LongestPalindromicSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="137">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T44_WildcardMatching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T516_LongestPalindromicSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
