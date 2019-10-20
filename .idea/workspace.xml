@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f03a1e-5ef1-4b3a-be5c-3e0da31dd0a9" name="Default" comment="add implement: binarySearch">
-      <change afterPath="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/EditDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/EditDistanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/LongestCommonSubsequenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T322_CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T44_WildcardMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T5_LongestPalindromicSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T64_MinimumPathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/leetcode_solutions/T120_Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T120_Triangle.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,15 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OneZeroKnapsack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/backtracking/example/OneZeroKnapsack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="38" column="76" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="KnapsackProblemTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/KnapsackProblemTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -38,17 +30,53 @@
       <file leaf-file-name="EditDistance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/EditDistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="228">
+              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestCommonSubsequence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/LongestCommonSubsequence.java">
+      <file leaf-file-name="T5_LongestPalindromicSubstring.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T5_LongestPalindromicSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T120_Triangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T120_Triangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T64_MinimumPathSum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T64_MinimumPathSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T44_WildcardMatching.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T44_WildcardMatching.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T322_CoinChange.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T322_CoinChange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -56,35 +84,17 @@
       <file leaf-file-name="LongestCommonSubsequenceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/LongestCommonSubsequenceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="228">
+              <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditDistanceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EditDistanceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/EditDistanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OneZeroKnapsackTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/backtracking/example/OneZeroKnapsackTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NQueueTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/backtracking/example/NQueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="228">
+              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -129,11 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/sedgewick_algorithms/README.md" />
-        <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/sort/implement/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/sort/implement/InsertionSort.java" />
-        <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/sort/implement/SelectionSort.java" />
-        <option value="$PROJECT_DIR$/src/main/leetcode_solutions/stack/T150_EvaluateReversePolishNotation.java" />
         <option value="$PROJECT_DIR$/src/main/leetcode_solutions/stack/T224_BasicCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/leetcode_solutions/stack/T282_ExpressionAddOperators.java" />
         <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/sort/implement/MergeSort.java" />
@@ -178,8 +183,13 @@
         <option value="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/KnapsackProblemTest.java" />
         <option value="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/LongestCommonSubsequenceTest.java" />
         <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/LongestCommonSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/EditDistanceTest.java" />
         <option value="$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/EditDistance.java" />
+        <option value="$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/EditDistanceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T64_MinimumPathSum.java" />
+        <option value="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T322_CoinChange.java" />
+        <option value="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T44_WildcardMatching.java" />
+        <option value="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T120_Triangle.java" />
+        <option value="$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T5_LongestPalindromicSubstring.java" />
       </list>
     </option>
   </component>
@@ -230,6 +240,21 @@
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_solutions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode_solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic_programming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -571,7 +596,7 @@
       <workItem from="1570425563021" duration="4062000" />
       <workItem from="1570457387464" duration="3483000" />
       <workItem from="1570473774816" duration="5787000" />
-      <workItem from="1571504116904" duration="3689000" />
+      <workItem from="1571504116904" duration="9079000" />
     </task>
     <task id="LOCAL-00001" summary="add implement: binarySearch">
       <created>1570543276675</created>
@@ -584,7 +609,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86035000" />
+    <option name="totallyTimeSpent" value="91425000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -611,16 +636,16 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.25575757" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32970026" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.16606061" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.16606061" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.092402466" visible="true" weight="0.20243205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.092402466" visible="true" weight="0.1788269" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.90759754" side_tool="true" weight="0.21173105" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.27636364" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27636364" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -692,36 +717,6 @@
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/EditDistanceTest.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/EditDistance.java</url>
-          <line>10</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/EditDistance.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/EditDistance.java</url>
-          <line>57</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/EditDistance.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="40" />
     </breakpoint-manager>
@@ -736,41 +731,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="728" column="23" selection-start-line="728" selection-start-column="23" selection-end-line="728" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/hash_table/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3002">
-          <caret line="162" column="21" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/data_structure/hash_table/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12559">
@@ -1046,20 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/LongestCommonSubsequenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/LongestCommonSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -1067,17 +1013,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/EditDistance.java">
+    <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/EditDistanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="228">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/EditDistanceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/LongestCommonSubsequenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        <state relative-caret-position="228">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T322_CoinChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T44_WildcardMatching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T120_Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T64_MinimumPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/LongestCommonSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/the_beauty_of_data_structure_and_algorithm/algorithm/dynamic_programming/example/EditDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode_solutions/dynamic_programming/T5_LongestPalindromicSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
