@@ -1,4 +1,4 @@
-package main.leetcode_solutions.linkedlist;
+package main.leetcode_solutions.array;
 
 public class T88_MergeSortedArray {
     /**
