@@ -13,7 +13,8 @@ package main.leetcode_solutions.array;
  *      T(n)=O(n), S(n)=O(1)
  * 4)摩尔投票法，https://en.wikipedia.org/wiki/Boyer-Moore_majority_vote_algorithm
  *      T(n)=O(n), S(n)=O(1)
- * 5)位运算，
+ * 5)位运算
+ * 6)分治法
  * 以下是摩尔投票算法的实现
  */
 public class T169_MajorityElement {
