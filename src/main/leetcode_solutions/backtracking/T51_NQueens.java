@@ -9,28 +9,33 @@ import java.util.*;
 public class T51_NQueens {
 
     public List<List<String>> solveNQueens(int n) {
-        List<List<Integer>> paths = new ArrayList<>();
-        List<Integer> path = new ArrayList<>();
+        List<List<String>> res = new ArrayList<>();
+        char[][] board = new char[n][n];
+        for (int i = 0; i < n; i++){
+            for (int j = 0; j < n; j++){
+                board[i][j] = '.';
+            }
+        }
         Set<Integer> cols = new HashSet<>();
         Set<Integer> sum = new HashSet<>();
         Set<Integer> sub = new HashSet<>();
-        dfs(0, n, path, paths, cols, sum, sub);
-        return print(paths, n);
+        dfs(0, n, board, res, cols, sum, sub);
+        return res;
     }
 
-    private void dfs(int i, int n, List<Integer> path, List<List<Integer>> paths, Set<Integer> cols, Set<Integer> sum, Set<Integer> sub){
+    private void dfs(int i, int n, char[][] board, List<List<String>> res, Set<Integer> cols, Set<Integer> sum, Set<Integer> sub){
         if (i == n){
-            paths.add(new ArrayList<>(path));
+            res.add(construct(board));
             return;
         }
         for (int j = 0; j < n; j++){
             if (!cols.contains(j) && !sum.contains(i + j) && !sub.contains(i - j)){
-                path.add(j);
                 cols.add(j);
                 sum.add(i + j);
                 sub.add(i - j);
-                dfs(i + 1, n, path, paths, cols, sum, sub);
-                path.remove(path.size() - 1);
+                board[i][j] = 'Q';
+                dfs(i + 1, n, board, res, cols, sum, sub);
+                board[i][j] = '.';
                 cols.remove(j);
                 sum.remove(i + j);
                 sub.remove(i - j);
@@ -38,19 +43,11 @@ public class T51_NQueens {
         }
     }
 
-    private List<List<String>> print(List<List<Integer>> paths, int n){
-        List<List<String>> res = new ArrayList<>();
-        String ori = "";
-        for (int i = 0; i < n; i++){
-            ori += ".";
+    private List<String> construct(char[][] board){
+        List<String> subRes = new ArrayList<>();
+        for (int i = 0; i < board.length; i++){
+            subRes.add(new String(board[i]));
         }
-        for (int i = 0; i < paths.size(); i++){
-            List<String> sol = new ArrayList<>();
-            for (int j = 0; j < paths.get(i).size(); j++){
-                sol.add(ori.substring(0, paths.get(i).get(j)) + "Q" + ori.substring(paths.get(i).get(j) + 1));
-            }
-            res.add(sol);
-        }
-        return res;
+        return subRes;
     }
 }

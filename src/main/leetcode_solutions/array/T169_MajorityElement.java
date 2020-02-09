@@ -7,17 +7,16 @@ package main.leetcode_solutions.array;
 
 /**
  * 求众数，此题有多种解法
- * 1)排序，快速排序后取中位数，T(n)=O(n*log(n)), S(n)=1
- * 2)哈希表，用哈希表进行计数，T(n)=O(n), S(n)=O(n)
- * 3)切分法，使用partition函数将数组切分，切分点处于正中间时，切分值即为众数
+ * 1)摩尔投票法，https://en.wikipedia.org/wiki/Boyer-Moore_majority_vote_algorithm
  *      T(n)=O(n), S(n)=O(1)
- * 4)摩尔投票法，https://en.wikipedia.org/wiki/Boyer-Moore_majority_vote_algorithm
- *      T(n)=O(n), S(n)=O(1)
- * 5)位运算
- * 6)分治法
- * 以下是摩尔投票算法的实现
+ * 2)分治法 T(n)=O(n*lg(n)),S(n)=O(lg(n))
  */
 public class T169_MajorityElement {
+    /**
+     * 摩尔投票法
+     * @param nums
+     * @return
+     */
     public int majorityElement(int[] nums) {
         int major = 0, count = 0;
         for (int i = 0; i < nums.length; i++){
@@ -32,9 +31,40 @@ public class T169_MajorityElement {
         }
         return major;
     }
-    //TODO 位运算实现 https://leetcode.com/problems/majority-element/discuss/51611/Java-solutions-(sorting-hashmap-moore-voting-bit-manipulation).
 
-    //TODO 切分法实现
+    /**
+     * 分治法
+     * @param nums
+     * @return
+     */
+    public int majorityElement2(int[] nums) {
+        return majorityElement(nums, 0, nums.length - 1);
+    }
+
+    private int majorityElement(int[] nums, int low, int high){
+        if (low == high){
+            return nums[low];
+        }
+        int mid = ((high - low) >> 1) + low;
+        int left = majorityElement(nums, low, mid);
+        int right = majorityElement(nums, mid + 1, high);
+        if (left == right){
+            return left;
+        }
+        int countLeft = count(nums, left, low, high);
+        int countRight = count(nums, right, low, high);
+        return countLeft > countRight ? left : right;
+    }
+
+    private int count(int[] nums, int num, int low, int high){
+        int count = 0;
+        for (int i = low; i <= high; i++){
+            if (nums[i] == num){
+                count++;
+            }
+        }
+        return count;
+    }
 
     //TODO 摩尔投票算法的扩展 https://leetcode.com/problems/majority-element-ii/
 }

@@ -1,4 +1,4 @@
-package main.leetcode_solutions.stack;
+package main.leetcode_solutions.dynamic_programming;
 
 /**
  * 最长合法括号
