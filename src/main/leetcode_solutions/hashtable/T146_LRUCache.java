@@ -6,6 +6,7 @@ import java.util.*;
  * @author wenzhuang
  * @date 2020/2/9 8:49 PM
  */
+//TODO LinkedHashMap解法
 public class T146_LRUCache {
 
     private Map<Integer, Node> cache;
